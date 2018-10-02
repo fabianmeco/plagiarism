@@ -1,0 +1,36 @@
+
+.container{
+    padding: 40px;
+}
+.input-header{
+    /* display:flex;
+    justify-content: flex-end;
+    align-items: center; */
+    button{        
+        margin-right: 30px;
+        background: #008C9E;
+        padding: 10px 20px 10px 20px;
+        border: none;
+        color: #FFF;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+    }
+}
+.input-wrapper{
+    text-align: center;
+    width: 70%;    
+    height: 300px;
+    border: 1px solid #e4e4e4;
+    margin: auto;
+    padding-top: 50px;
+    background: #FFF;
+}
+button{
+    background: #008C9E;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: #FFF;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+

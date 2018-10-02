@@ -1,0 +1,17 @@
+
+<alert></alert>
+<div class="container">
+  <div class="input-wrapper">
+      <h1>PLAGIARISM SEEKER</h1>
+      <P>Por favor, seleccione el documento que desea procesar </P>
+    <form #form="ngForm" (ngSubmit)="logForm(form.value)" enctype="multipart/form-data">
+      <input style="display: none" type="file" id="docFile" name="myfile" ngModel (change)="onChange($event)" #fileInput/>
+      <button class="upload-button" type="button" (click)="fileInput.click()">Agregar documento</button>
+    </form>
+    <img *ngIf="loading" src="./assets/loading.gif" alt="">
+  </div>
+</div>
+
+
+
+<!-- #E3E931, #FFFFFF, #000000, #6BC2E0, #35B4D9 -->

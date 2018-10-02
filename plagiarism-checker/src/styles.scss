@@ -1,0 +1,21 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body{
+    margin: 0;
+    background: #fafafa;
+    font-family: 'Roboto Slab', serif;
+}
+.alert-danger{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    padding: 10px 10px; 
+    margin: 0 auto;   
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.parrafo:hover{
+    border: #008C9E solid 1px;
+}
